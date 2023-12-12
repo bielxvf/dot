@@ -1,0 +1,48 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/biel/repos/p2/" . "src/")
+ ("/home/biel/repos/" . "p2/")
+ ("/home/biel/.config/" . "i3/")
+ ("/home/biel/" . "repos/")
+ ("/home/" . "biel/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/biel/"
+ "/home/biel/repos/p2/src/"
+ "/home/biel/repos/p2/"
+ "/home/biel/.config/i3/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".emacs"
+ "main.c"
+ "PrintError.h"
+ ".bash_profile"
+ ".bashrc"
+ "config"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/biel/" (25976 15987 947621 47000) ".gitconfig" ".Xauthority" ".emacs" "repos/" "Downloads/" ".librewolf/" ".viminfo" ".gnupg/" ".lesshst" ".cargo/" ".config/" ".local/" ".xinitrc" ".cache/" ".emacs.d/" ".bash_history" ".bashrc" ".bash_profile" ".bash_logout" "../" "./")
+
+ ("/home/biel/repos/p2/src/" (25976 18177 87632 822000) "main.c" "PrintError.h" "../" "./")
+
+ ("/home/biel/repos/p2/" (25976 18266 527633 303000) "build/" "src/" "libargparse/" "README.md" "Makefile" "LICENSE" ".gitignore" ".git/" "../" "./")
+
+ ("/home/biel/repos/" (25975 39483 777449 265000) "p2/" "chesspp/" "passmanpp/" "c-exercises/" "passman/" "../" "./")
+
+ ("/home/biel/.config/i3/" (25975 35113 337395 682000) "config" "../" "./")
+
+ ("/home/biel/.config/" (25975 36241 447409 513000) "passman/" "i3/" "../" "./")
+
+ ("/home/" (25975 32849 16619 14000) "biel/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

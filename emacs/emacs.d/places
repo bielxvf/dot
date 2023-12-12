@@ -1,0 +1,18 @@
+;;; -*- coding: utf-8; mode: lisp-data -*-
+(("/home/biel/.emacs" . 1755)
+ ("/home/biel/repos/p2/"
+  (dired-filename . "/home/biel/repos/p2/.gitignore"))
+ ("/home/biel/repos/p2/src/main.c" . 2825)
+ ("/home/biel/repos/p2/src/"
+  (dired-filename . "/home/biel/repos/p2/src/.."))
+ ("/home/biel/.bash_profile" . 110)
+ ("/home/biel/repos/"
+  (dired-filename . "/home/biel/repos/passman"))
+ ("/home/biel/repos/p2/.git/branches/"
+  (dired-filename . "/home/biel/repos/p2/.git/branches/.."))
+ ("/home/biel/repos/p2/.git/"
+  (dired-filename . "/home/biel/repos/p2/.git/.."))
+ ("/home/biel/.bashrc" . 153)
+ ("/home/biel/"
+  (dired-filename . "/home/biel/Downloads"))
+ ("/home/biel/.config/i3/config" . 337))

@@ -1,0 +1,42 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/biel/repos/" . "p2/")
+ ("/home/biel/.config/" . "i3/")
+ ("/home/biel/" . "repos/")
+ ("/home/" . "biel/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/biel/repos/p2/"
+ "/home/biel/"
+ "/home/biel/.config/i3/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ ".bash_profile"
+ ".bashrc"
+ ".emacs"
+ "config"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/biel/" (25975 40846 557727 324000) ".Xauthority" ".emacs" "repos/" "Downloads/" ".librewolf/" ".viminfo" ".gnupg/" ".lesshst" ".cargo/" ".config/" ".local/" ".xinitrc" ".cache/" ".emacs.d/" ".bash_history" ".bashrc" ".bash_profile" ".bash_logout" "../" "./")
+
+ ("/home/biel/repos/p2/" (25975 39484 457449 273000) "src/" "libargparse/" "README.md" "Makefile" "LICENSE" ".gitignore" ".git/" "../" "./")
+
+ ("/home/biel/repos/" (25975 39483 777449 265000) "p2/" "chesspp/" "passmanpp/" "c-exercises/" "passman/" "../" "./")
+
+ ("/home/biel/.config/i3/" (25975 35113 337395 682000) "config" "../" "./")
+
+ ("/home/biel/.config/" (25975 36241 447409 513000) "passman/" "i3/" "../" "./")
+
+ ("/home/" (25975 32849 16619 14000) "biel/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
