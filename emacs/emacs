@@ -6,7 +6,8 @@
 (scroll-bar-mode 0)
 (menu-bar-mode 0)
 
-(set-frame-font "UbuntuMonoNerdFontMono 20" nil t)
+(set-frame-font "Iosevka Nerd Font 24" nil t)
+; (set-frame-font "UbuntuMonoNerdFontMono 20" nil t)
 
 (global-display-line-numbers-mode)
 (setq display-line-numbers-type 'relative)
@@ -28,7 +29,7 @@
  '(custom-safe-themes
    '("046a2b81d13afddae309930ef85d458c4f5d278a69448e5a5261a5c78598e012" default))
  '(package-selected-packages
-   '(magit gruvbox-theme saveplace-pdf-view pdf-view-restore evil diredful)))
+   '(rust-mode magit gruvbox-theme saveplace-pdf-view pdf-view-restore evil diredful)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -62,3 +63,5 @@
 (setq pdf-view-restore-filename "~/.emacs.d/.pdf-view-restore")
 
 (add-hook 'before-save-hook 'delete-trailing-whitespace)
+
+(require 'rust-mode)
