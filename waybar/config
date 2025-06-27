@@ -1,0 +1,58 @@
+{
+    "layer": "top",
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["cpu", "memory", "network"],
+    "modules-right": ["battery", "clock"],
+    "sway/window": {
+        "max-length": 50
+    },
+    "battery": {
+        "format": "{capacity}% {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+    "network": {
+        "tooltip": true,
+        "rotate": 0,
+        "format-ethernet": " ",
+        "tooltip-format": "Network: <big><b>{essid}</b></big>\nSignal strength: <b>{signaldBm}dBm ({signalStrength}%)</b>\nFrequency: <b>{frequency}MHz</b>\nInterface: <b>{ifname}</b>",
+        "format-linked": " {ifname} (No IP)",
+        "format-disconnected": "󰖪 ",
+        "tooltip-format-disconnected": "Disconnected",
+        "format-alt": "<span foreground='#99ffdd'> {bandwidthDownBytes}</span> <span foreground='#ffcc66'> {bandwidthUpBytes}</span>",
+        "interval": 2
+    },
+    "clock": {
+        "format": "{:%H:%M}",
+        "rotate": 0,
+        "format-alt": "{  %d·%m·%y}",
+        "tooltip-format": "<span>{calendar}</span>",
+        "calendar": {
+         	"mode": "month",
+            "format": {
+                "months": "<span color='#ff6699'><b>{}</b></span>",
+                "days": "<span color='#cdd6f4'><b>{}</b></span>",
+                "weekdays": "<span color='#7CD37C'><b>{}</b></span>",
+                "today": "<span color='#ffcc66'><b>{}</b></span>"
+            }
+        }
+    },
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "1": " ",
+            "2": " ",
+            "3": " ",
+            "4": " ",
+            "5": " ",
+            "6": " ",
+            "7": " ",
+            "8": " ",
+            "9": " ",
+            "active": " ",
+            "default": " "
+        },
+        "persistent-workspaces": {
+              "eDP-1": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+        }
+    },
+} 

@@ -1,0 +1,87 @@
+* {
+    border: none;
+    border-radius: 0px;
+    font-weight: bold;
+    font-size: 14px;
+    min-height: 22px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+window#waybar {
+    background: #0019ac;
+    border-radius: 5px;
+}
+
+#workspaces button {
+    box-shadow: none;
+    text-shadow: none;
+    padding: 0px 5px;
+    color: #00e3f6;
+    background: transparent;
+}
+
+#workspaces button.active {
+    background: #00006a;
+    color: #00e3f6;
+    padding: 0px 5px;
+}
+
+#workspaces button:hover {
+    background: #0060c0;
+    color: #00e3f6;
+}
+
+#taskbar button {
+    box-shadow: none;
+    text-shadow: none;
+    padding: 0px 5px;
+    color: #00e3f6;
+}
+
+#taskbar button.active {
+    background: transparent;
+    color: #00e3f6;
+}
+
+#taskbar button:hover {
+    background: #00005a;
+    color: #00e3f6;
+}
+
+#clock,
+#cpu,
+#network,
+#pulseaudio,
+#memory,
+#disk,
+#tray,
+#user,
+#custom-appmenu,
+#custom-quit,
+#custom-lock,
+#custom-reboot,
+#custom-shutdown {
+    box-shadow: none;
+    text-shadow: none;
+    padding: 0px 4px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    color: #00e3f6;
+}
+
+#clock {
+    margin-right: 6px;
+    margin-left: 6px;
+    padding: 0px 3px;
+}
+
+#custom-quit,
+#custom-lock,
+#custom-reboot,
+#custom-shutdown {
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 0px 10px;
+}
